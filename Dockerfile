@@ -7,4 +7,4 @@ RUN npm install && npm run install
 
 EXPOSE 8080
 
-CMD npm run start
+CMD npm start -- -p 8080 -a user=password
