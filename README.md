@@ -104,4 +104,4 @@ vagrant up
 
 ## Use
 
-You can now browse your kong dashboard at http://localhost:8080/dashboard/
+You can now browse your kong dashboard at http://localhost:8080
