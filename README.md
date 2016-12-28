@@ -80,11 +80,14 @@ npm start -- [-p port] [-a user=password]
 ### With Docker
 
 ```bash
+# Build Docker Image
+./build-docker-image.sh
+
 # Start Kong Dashboard
-docker run -d -p 8080:8080 pgbi/kong-dashboard
+docker run -d -p 8080:8080 docker-kong-dashboard
 
 # Start Kong Dashboard on a custom port
-docker run -d -p [port]:8080 pgbi/kong-dashboard
+docker run -d -p [port]:8080 docker-kong-dashboard
 ```
 
 
